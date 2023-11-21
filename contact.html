@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bengaluru's Best Bites</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Roboto&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+        .container {
+  width: 600px;
+  padding: 16px;
+  background-color: white;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+input[type=text], input[type=email], input[type=tel] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=tel]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+button {
+  background-color: #29ADB2;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+      </style>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="./i4.jpeg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./products.html">PRODUCTS</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1><u>Contact Us</u></h1>
+        <p >We’d love to hear from you! Whether you have a question about our products, <br>need assistance with an order, or just want to share your feedback, feel free to get in touch with. <br><br>
+        <u>Our Address.</u><br>
+        Bengaluru’s Best Bites, 123 Bakery Street, Bengaluru, Karnataka, India. <br><br>
+        <u>Email Us</u> <br>
+        For general inquiries: info@bengalurusbestbites.com. <br>For order related queries: orders@bengalurusbestbites.com. <br><br>
+        <u>Call Us</u> <br>
+        You can reach us at: +91 1234567890. <br><br>
+        <u>Business Hours</u> <br>
+        We are open from Monday to Saturday, 8:00 AM to 8:00 PM IST.<br>
+        Please note that our customer service team will respond to your queries as soon as possible.<br> We appreciate your patience and look forward to assisting you!
+        </p>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2><u>Feedback & Queries</u></h2><br>
+            <label for="name"><b>Name</b></label>
+            <input type="text" placeholder="Enter Name" name="name" required>
+          
+            <label for="email"><b>Email</b></label>
+            <input type="email" placeholder="Enter Email" name="email" required>
+          
+            <label for="contact"><b>Contact Number</b></label>
+            <input type="tel" placeholder="Enter Contact Number" name="contact" required>
+          
+            <label for="city"><b>City</b></label>
+            <input type="text" placeholder="Enter City" name="city" required>
+
+            <label for="city"><b>Message</b></label>
+            <input type="text" placeholder="Enter queries" name="Message" required>
+          
+            <button type="submit">Submit</button>
+          </div>
+    </section>
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+            
+        }    
+    </script>
+
+</body>
+</html>

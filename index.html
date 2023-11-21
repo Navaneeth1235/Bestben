@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bengaluru's Best Bites</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Roboto&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+      </style>
+</head>
+<body>
+    <h1>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img  class="img1"   src="./i4.jpeg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="./products.html">PRODUCTS</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </h1>
+
+    <div class="text-box">
+        <h1>Welcome to “Bengaluru’s Best Bites”!</h1>
+        <p>We are a Major fast/slow food shop located in the heart of Bengaluru.<br> We specialize in handcrafted, artisanal baked goods made with love and the finest local ingredients.</p>
+        <p>We offer a wide range of products that cater to all your cravings. From artisanal breads and pastries to local favorites like Bengaluru Buns,<br> we have something for everyone. Our products are made fresh daily using only the finest ingredients.</p>
+
+        <a href="https://en.wikipedia.org/wiki/Category:Karnataka_cuisine" class="hero">Explore now</a>
+    </div>
+        
+
+    </section>
+
+
+    <section class="items">
+        <h2>Exceptional Items</h2>
+        <p class="items1">
+            There are many exceptional items present!!!!
+        </p>
+
+        <div class="row">
+            <div class="items-col">
+                <h3>Bengaluru Special Dosa Kit</h3>
+                <p>A DIY kit containing all the ingredients needed to make authentic Bengaluru dosas at home.</p>
+            </div>
+            <div class="items-col">
+                <h3>Pastries</h3>
+                <p>Indulge in our delicious Croissants, Danishes, Eclairs, and more.</p>
+            </div>
+            <div class="items-col">
+                <h3>Artisanal Chutneys</h3>
+                <p>A variety of homemade chutneys that represent the diverse flavors of Bengaluru</p>
+            </div>
+        </div>
+    </section>
+
+<!-------products-------
+    <section class="prod">
+        <h1>
+            <u>Variety of Fast/Slow Food
+            </u>
+            </h1>
+        <p>We apologize accordingly for any items out of stock.</p>
+
+        <div class="row">
+            <div class="prod-col">
+                <img src="./i5.webp" alt="">
+                <div class="layer">
+                    <h3>
+                        Pastries
+                    </h3>
+                </div>
+            </div>
+            <div class="prod-col1">
+                <img src="./i6.cms" alt="">
+                <div class="layer">
+                    <h3>
+                        Dosa's
+                    </h3>
+                </div>
+            </div>
+            <div class="prod-col2">
+                <img src="./i7.jpg" alt="">
+                <div class="layer">
+                    <h3>
+                        Full Meals
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+------->    
+
+<!-----------About Us----------
+
+/*<section class="About">
+    <h1>
+        <u>About Us</u></h1>
+    <p>
+        “Bengaluru’s Best Bakes” was founded in 2023 by the Sharma family. Our passion for baking and commitment to using only the highest quality ingredients has made us a beloved fixture in the Bengaluru community. We believe in the power of food to bring people together and strive to create a warm, welcoming environment for all our customers.
+        Bengaluru’s Best Bites is a locally owned and operated bakery that brings the authentic taste of Bengaluru to your doorstep. We are passionate about baking and our mission is to provide our customers with the highest quality baked goods that Bengaluru has to offer.
+
+Our journey began in the heart of Bengaluru, where we first opened our doors to the public. Since then, we have been committed to serving our community with delicious and fresh baked goods that are made from scratch every day.
+
+We believe in using only the finest ingredients to create our pastries, breads, and other baked goods. Our team of skilled bakers and pastry chefs work tirelessly to ensure that every bite you take is a testament to our commitment to quality.
+
+At Bengaluru’s Best Bites, we offer a wide range of products, from artisanal breads and pastries to local favorites like Bengaluru Buns. We also offer DIY baking kits for those who want to enjoy the fun of baking at home.
+
+We are more than just a bakery - we are a part of the Bengaluru community. We believe in giving back to the community that has given us so much. That’s why we source our ingredients from local farmers and suppliers, and actively participate in local events and charities.
+
+Thank you for choosing Bengaluru’s Best Bites. We look forward to serving you!
+    </p>
+</section>
+--------->
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+            
+        }    
+    </script>
+
+<!--------Javascript for the toggle menu----------->
+   <section>
+    <div class="icons">
+        <p>
+        <a href="https://www.facebook.com/food.com/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com/indianfoodiecom?lang=en"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com/indianfood_lovers/?hl=en"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="https://www.youtube.com/results?search_query=Karnataka+food"><i class="fa-brands fa-youtube"></i></a>
+    </p>
+    </div>
+   </section>
+    
+</body>
+</html>

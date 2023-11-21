@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bengaluru's Best Bites</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Roboto&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+        
+      </style>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="./i4.jpeg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./products.html">PRODUCTS</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1><u>Our Products</u></h1><br>
+        <p class="product1">Welcome to the heart of Bengaluru’s Best Bites - our Products page! <br> Here, you’ll find a diverse selection of Bengaluru’s finest culinary <br> delights that we’ve carefully curated just for you. <br>
+
+            We believe in the power of good food and its ability to bring people together. <br> That’s why we’ve embarked on a journey across Bengaluru,  <br>exploring its vibrant food scene to bring you the best bites the city has to offer. <br>
+            
+            Each product listed here represents a unique flavor <br> of Bengaluru,  waiting to be explored and savored. <br>
+            
+            
+            We offer a wide range of products that cater to all your cravings. <br> From artisanal breads and pastries to local favorites like Bengaluru Buns,<br> we have something for everyone. Our products are made <br> fresh daily using only the finest ingredients.<br>
+
+            <u>Bengaluru Buns</u>: Sweet, soft, and fluffy buns that are a local favorite in Bengaluru.<br>
+            <u>Artisanal Breads</u>: Freshly baked breads like sourdough, multigrain, and baguettes.<br>
+            Scroll Down for more.
+        </p>
+        </div>
+
+
+    </section>
+
+    <section class="prod">
+        <h1>
+            <u>Variety of Fast/Slow Food
+            </u>
+            </h1>
+        <p>We apologize accordingly for any items out of stock.</p>
+
+        <div class="row">
+            <div class="prod-col">
+                <img src="./i5.webp" alt="">
+                <div class="layer">
+                    <h3>
+                        <a href="https://en.wikipedia.org/wiki/List_of_pastries" class="layer"></a>Pastries
+                    </h3>
+                </div>
+            </div>
+            <div class="prod-col1">
+                <img src="./i6.cms" alt="">
+                <div class="layer">
+                    <h3>
+                        <a href="https://en.wikipedia.org/wiki/Dosa_(food)#Nutrition" class="layer"></a>Dosa's
+                    </h3>
+                </div>
+            </div>
+            <div class="prod-col2">
+                <img src="./i7.jpg" alt="">
+                <div class="layer">
+                    <h3>
+                        <a href="https://en.wikipedia.org/wiki/Udupi_cuisine#Full-course_Udupi_meals" class="layer"></a>
+                        Full Meals
+                    </h3>
+                </div>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="prod-col">
+                <img src="./chinese.jpeg" alt="">
+                <div class="layer">
+                    <h3>
+                        <a href="https://en.wikipedia.org/wiki/List_of_Chinese_dishes" class="layer"></a>Chinese
+                    </h3>
+                </div>
+            </div>
+            <div class="prod-col1">
+                <img src="./idlivada.jpeg" alt="">
+                <div class="layer">
+                    <h3>
+                        <a href="https://en.wikipedia.org/wiki/Idli" class="layer"></a>Idli Vada
+                    </h3>
+                </div>
+            </div>
+            <div class="prod-colpiz">
+                <img src="./pi1.jpeg" alt="">
+                <div class="layer">
+                    <h3>
+                        <a href="https://en.wikipedia.org/wiki/List_of_pizza_varieties_by_country" class="layer"></a>
+                        Pizza
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+            
+        }    
+    </script>
+
+</body>
+</html>
